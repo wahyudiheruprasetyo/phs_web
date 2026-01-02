@@ -2061,14 +2061,14 @@ DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=phs_db
-DB_USERNAME=root
-DB_PASSWORD=your_password
+DB_USERNAME=onecore
+DB_PASSWORD=Kamikaze666?
 
 # 6. Create database
-mysql -u root -p -e "CREATE DATABASE phs_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;"
+# mysql -u root -p -e "CREATE DATABASE phs_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;"
 
 # 7. Run migrations and seeders
-php artisan migrate --seed
+# php artisan migrate --seed
 
 # 8. Create storage link
 php artisan storage:link
